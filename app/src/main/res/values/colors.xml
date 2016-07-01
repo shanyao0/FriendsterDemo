@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 主题色-->
+    <color name="main_theme_color">#44B43A</color>
+
+    <!--TextView的字体颜色-->
+
+    <color name="black_lighter_text_color">#b4b4b4</color>
+    <color name="black_light_text_color">#999999</color>
+    <color name="black_dark_text_color">#666666</color>
+    <color name="black_dark">#333333</color>
+</resources>

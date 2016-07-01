@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dynamic_message"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/laba" />
+
+        <TextView
+            android:id="@+id/see_you_person"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:maxEms="6"
+            android:singleLine="true"
+            android:text="荔枝，开心果你好"
+            android:textColor="@color/main_theme_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/see_you_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:text="等21人看过您的资料"
+            android:textColor="@color/black_light_text_color"
+            android:textSize="@dimen/textsize_small" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/healthy_dynamic_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="12dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/to_top"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#6644b43a"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="顶"
+            android:textColor="#fff"
+            android:textSize="@dimen/textsize_mid"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>
